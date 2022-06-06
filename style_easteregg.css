@@ -1,0 +1,208 @@
+body{
+    background-image: url(images/e_backg.png);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#txt{
+    width: 80%;
+    position: relative;
+    left: 1%;
+    top: 40%;
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Acme";
+    font-size: 35px;
+    font-weight: lighter;
+    padding-left: 23%;
+    padding-top: 3%;
+    margin:auto;
+    display: block;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    font-family: "Acme";
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 45%;
+    padding-right: 0%;
+    padding-top: 0%;
+    display: block;
+    text-align: right;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.3%;
+    padding: 0px;
+    padding-top: 3%;
+    padding-left: 3%;
+  }
+
+  #copyright{
+    color: #ff0062;
+    font-family: "Roboto";
+    font-size: 15px; 
+    font-style: oblique;
+    padding-left: 45%;
+    padding-top: 1%;
+    margin:auto;
+    display: block;
+}
+
+/*
+div .symbols {
+    color:#ff0062;
+    padding-left: 37%;
+    padding-top: 3%;
+    margin:auto;
+    display: block;
+}
+div .social {
+    color: #ff0062;
+    padding-left: 0%;
+    padding-top: 3%;
+    margin:auto;
+    display: block;
+}
+
+div .all {
+    text-align: center;
+    display: inline-block;
+}
+*/
+
+p::selection{
+    color:purple;
+    background-color: #ff7aad;
+}
+
+h1::selection{
+    color:purple;
+    background-color: #ff7aad;
+}
+
+#copyright::selection{
+    color:purple;
+    background-color: #ff7aad;
+}
+
+img::selection{
+    color:purple;
+    background-color: #ff7aad;
+}
+
+.all::selection{
+    color:purple;
+    background-color: #ff7aad;
+}
+
+#myButton::selection{
+    color:purple;
+    background-color: #ff7aad;
+}
+
+#myButton{
+    color: #ff0062;
+    font-family: "Acme";
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: rgb(254, 228, 239);
+    width: 15%;
+	border: 1px solid;
+	font-size: 25px;
+	text-align: center;
+    padding-left: 0%;
+    padding-top: 0%;
+    margin:auto;
+    display: block;
+}
+
+#myImg{
+    size: cover;
+    width: 25%;
+    top: 190%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#myImg2{
+    size: cover;
+    width: 25%;
+    top: 190%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#sad{
+	color: #ffffff;
+    font-family: "Acme";
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 2%;
+    padding-right: 0%;
+    padding-top: 0%;
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+#notsad{
+    color: #ffffff;
+    font-family: "Acme";
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 85.5%;
+    padding-right: 0%;
+    padding-top: 0%;
+    display: block;
+    margin: auto;
+    text-align: left;
+    visibility: hidden;
+}
+
+.p_txt{
+    color: #ffffff;
+    font-family: "Acme";
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 23%;
+    padding-top: 2%;
+    margin:auto;
+    display: block;
+    text-align: center;
+}
+
+#give{
+    color: #ffffff;
+    font-family: "Acme";
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 23%;
+    padding-top: 2%;
+    padding-bottom: 9%;
+    margin:auto;
+    display: block;
+    text-align: center;
+}
+
+#ramen{
+    size: cover;
+    width: 10%;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
